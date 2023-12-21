@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Eggnovation</title>
+
+    <!-- MONT Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="grid-container">
+
+        <!--Header-->
+        <header class="header">
+            
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-icons-outlined">menu</span>
+            </div>
+            <div class="header-right">
+                <span class="material-icons-outlined">notifications</span>
+            </div> 
+            
+        </header>
+        <!---End Header--->
+
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-logo">
+                    <img src="logg.png" alt="logo">
+                </div>
+            </div>
+
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <a href="index.html">
+                        <span class="material-icons-outlined">home</span> Home
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="temperature.html">
+                    <span class="material-icons-outlined">thermostat_auto</span> Temperature
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="humidity.html">
+                    <span class="material-icons-outlined">water_drop</span> Humidity
+                    </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="power.html">
+                    <span class="material-icons-outlined">solar_power</span> Power Source
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- End Sidebar -->
+
+        <!-- Main -->
+        <main class="main-container">
+            <div class="main title">
+                <h2>HUMIDITY</h2>
+            </div>
+        </main>
+        <!-- End Main -->
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
